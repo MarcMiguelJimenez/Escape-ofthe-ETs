@@ -5,7 +5,7 @@ public class FindGrenadeRoom extends LootRoom {
     }
     public String intro_text(){
         if(pickedItem == false)
-            return String.format("You find a small EMP Grenade in a room.");
+            return String.format("You find a small Grenade in a room.");
         else
             return "";
     }
