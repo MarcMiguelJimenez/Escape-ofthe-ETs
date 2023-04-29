@@ -1,0 +1,5 @@
+ 	 	 	 	LeaveCaveRoom
+			AlienRoom	EmptyHallPath
+ 	 	 	EmptyHallPath	  
+ 	 	 	FindLaserRoom	 
+RobotRoom	FindGrenadeRoom	StartingRoom	TreasureRoom	FindSwordRoom
