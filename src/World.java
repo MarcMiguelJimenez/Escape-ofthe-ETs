@@ -54,7 +54,7 @@ public class World {
                     mt = checkRoomExists(mt);
                     break;
                 case "TreasureRoom":
-                    mt = new TreasureRoom(x, y, new Bar(15));
+                    mt = new TreasureRoom(x, y, new Bar(1));
                     mt = checkRoomExists(mt);
                     break;
                 case "EmptyHallPath":
