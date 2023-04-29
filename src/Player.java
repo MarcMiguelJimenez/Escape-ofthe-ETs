@@ -42,7 +42,7 @@ public class Player implements Comparable<Player> {
     public Player(String name){
         super();
         this.name= name;
-        inventory.add(new Bar(1));
+        inventory.add(new Bar(2));
         this.hp = 140; // Health Points
         this.location_x = World.Starting_Position.x;
         this.location_y = World.Starting_Position.y;
@@ -235,7 +235,7 @@ public class Player implements Comparable<Player> {
             attackEnemy(kwargs);
         }
 
-    } //End Code block do_attack method*/
+    } 
 
 
-} //End Code block class
+} 
